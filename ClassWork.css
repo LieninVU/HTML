@@ -1,0 +1,162 @@
+.header{
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 2%;
+}
+.header div{
+    color: white;
+    font-size: 100%;
+}
+
+.decoration {
+    position: relative;
+    text-align: center;
+}
+.fone_img{
+    position: relative;
+}
+.backgroung{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: url("Image/Macdonald\'s.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:brightness(0.5);
+    z-index: -1;
+}
+.container{
+    color:wheat;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 36%;
+    padding-right: 36%;
+
+}
+
+.smalls_img{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.big_img img{
+    width: 300px;
+    height: 300px;
+}
+.img img{
+    width: 100px;
+    height: 100px;
+}
+.img{
+    display: flex;
+    flex-direction:row;
+}
+.history{
+    position: relative;
+    color:wheat
+    
+}
+.history u {
+    padding-left: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    
+}
+.history text{
+    padding-left: 50%;
+    display: flex;
+    justify-content: center;
+    font-size:150%;
+}
+.dishes_menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-top: 5%;
+   padding-left: 20%;
+   padding-right: 20%;
+  
+}
+.dish{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    width: 30%;
+    height: auto    ;
+    gap: 5px;
+    border-radius: 5%;
+    background-color: wheat;
+  
+}
+.dish img{
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 10%;
+}
+.high{
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    text-align: 10%;
+}
+.low{
+    display: flex;
+    justify-content: center;
+    text-align: 4%;
+    
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.cook_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+  
+}
+.cook{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    gap: 10px;
+    height: auto;
+    background-image: url("Image/comm_logo.jfif");
+    border-radius: 3%;
+}
+.cook img{
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 100%;
+}
+.cook text{
+    color:wheat;
+}
+.corners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    
+}
+.corners img{
+    width:auto;
+    height: auto;
+}
+#footer{
+    height: 350px;
+    width: 350px;
+}
