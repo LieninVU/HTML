@@ -173,7 +173,7 @@ justify-content: space-between;
    justify-content: center;
    font-size: 180%;
 }
-.reservation img{
+#reserv_decor{
     padding-left: 100% ;
     transform: translate(-50%, -50%);
     width: 40%;  
@@ -186,22 +186,43 @@ justify-content: space-between;
     gap:3%;
 }
 .block{
+    padding-top: 5%;
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    gap: 15%;
 }
 
 .about_us{
-    
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
 }
 
 .about_us img{
-    
+    width: 50px;
+    height: auto;
 }
 
 .about_us text{
-    font-size: 50px;
+    font-size: 20px;
+}
+
+#follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 150%;
+    
+}
+#follow img{
+    width: 10%;
+    height: auto;
+}
+.imput{
+    padding-left: 7%;
 }

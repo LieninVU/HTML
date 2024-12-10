@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="ClassWork" content="width=device-width, initial-scale=1.0">
     <title>ClassWork</title>
+
     <link rel="stylesheet" href="ClassWork.css">
 </head>
 
@@ -56,7 +57,7 @@
         </div>
         <div class="reservation">
             <text>Take Reservation</text>
-            <img src="Image/Decoration.png"/>
+            <img id="reserv_decor"src="Image/Decoration.png"/>
             <div id="two_blocks">
             <div class="block">
                 <div class="about_us">
@@ -71,9 +72,28 @@
                     <img src="Image/email.png"/>
                     <text>Email</text>
                 </div>
+                <div id="follow">
+                    Follow us
+                    <img src="Image/instagram.png"/>
+                    <img src="Image/telegram.png"/>
+                    <img src="Image/facebook.png"/>
+
+                </div>
             </div>     
             <div class="block">
-
+                <text>Leave All Your Data</text>
+                <form class="imput">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </form>
+                <form class="imput">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </form>
+                <form class="imput">
+                    <label for="Data">Data:</label>
+                    <input type="date" id="date" name="date">
+                </form>
             </div>     
             </div>
 
